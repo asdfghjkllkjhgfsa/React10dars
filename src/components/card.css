@@ -1,0 +1,36 @@
+.card {
+  width: 550px;
+  height: 151px;
+  background: #f6f6f6;
+  box-shadow: 4px 4px 10px 4px #00000040;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.card-img {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: #fde9cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img img {
+  width: 60%;
+}
+
+.card h2 {
+  font-family: Inria Sans;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+}
+.card p{
+    font-size: 18px;
+    color: gray;
+}
